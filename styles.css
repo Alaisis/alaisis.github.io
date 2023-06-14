@@ -1,0 +1,125 @@
+header{
+    background-color: aliceblue;
+}
+
+.caja{
+    width: 1060px;
+    position: relative;
+    margin: 0 40px;
+}
+
+.foto{
+    width: 20%;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+nav{
+    position: absolute;
+    top: 140px;
+    right: -250px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000 ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration-style: wavy;
+}
+
+
+h2{
+    font-size: 40px;
+}
+
+
+li{
+    display: inline-block;
+    text-align: top;
+    padding: 20px;
+}
+
+.principal{
+    background-color: rgb(174, 219, 247);
+    padding: 15px;
+}
+
+p{
+    text-align: center;
+    padding: 30px 30px;
+    font-size: 25px;
+}
+
+ul{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    margin-right: 25px;
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+h4{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+h5{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+h6{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.experiencia{
+    background-color: rgb(189, 245, 226);
+}
+
+.experiencia p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.paginacomplex{
+    width: 50% ;
+}
+
+.tupeso{
+    width: 40%;
+    padding: 30px;
+}
+
+.tupeso p{
+    display:inline-block;
+    vertical-align: top;
+    padding: 20px;
+
+}
+
+
+
+

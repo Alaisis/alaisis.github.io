@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="contacto.css">
+	    <title>Portafolio Ulises Sánchez</title>
+
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1> <img  class="foto" src=banner/ulises.jpeg></h1>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Sobre mí</a></li>
+                        <li><a href="Skills.html">Skills</a></li>
+                        <li><a href="Formación académica.html">Formación académica</a></li>
+                        <li><a href="Hobbies.html">Hobbies</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+        </header>
+        <form>
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo electronico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+            
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="input-padron" required>
+
+
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70"  rows="10" id="mensaje" class="input-padron" required=""></textarea>
+
+            	
+
+                <input type="submit" value="enviar" class="enviar">
+        </form>
+    </body>
+</html>        

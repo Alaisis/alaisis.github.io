@@ -1,0 +1,42 @@
+form
+{
+	margin: 40px 0px;
+    margin-left: 20PX;
+}
+
+form label
+{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px 30px;
+}
+
+.input-padron
+{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+ 
+.enviar
+{
+	width:30%;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	background: orange;
+	border-radius: 15px;
+	border: none;
+	transition: 1s all;
+	margin-left: 60px;
+}
+
+.enviar:hover
+{
+	cursor: pointer;
+	background: red;
+	transform: scale(1.3);
+}

@@ -1,0 +1,17 @@
+.formacion{
+    background-color: bisque;
+    margin: 0 auto;  
+    
+}
+
+.formacion li{
+    display: inline-block;
+    text-align: center;
+    padding: 0 auto;
+    
+}
+
+
+.formacion li:hover p{
+    font-size: 34px;
+}

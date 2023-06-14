@@ -1,0 +1,19 @@
+.skills{
+    background-color: hsl(0, 26%, 85%);
+}
+
+.skills li{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.skills li:hover {
+    border-color: red;
+}
+
+
+.skills li:hover p{
+    font-size: 34px;
+}
+

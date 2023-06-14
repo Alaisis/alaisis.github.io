@@ -1,0 +1,20 @@
+.hobbies{
+    background-color: beige;
+    padding-top: 15px;
+}
+
+.hobbies li{
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px;
+    margin: 0 2px;
+    width: 15%;
+}
+
+.hobbies li:hover{
+    border-color: blue;
+}
+.hobbies li:hover p{
+    font-size: 34px;
+}
